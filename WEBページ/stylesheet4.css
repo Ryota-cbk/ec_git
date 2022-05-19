@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 100px 0 0px 0;
+  background-size: cover;
+  color: rgb(21, 18, 18);
+}
+
+.top {
+  width:100%;
+  top:200px;
+  padding-top:250px;
+  text-align:center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  /* positionプロパティをfixedに、topを0に指定してください */
+  position: fixed;
+  top: 0;
+  /* z-indexを10に指定してください */
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  color: black;
+  opacity: 0.95;
+  vertical-align: middle;
+  letter-spacing: 8px;
+}
+
+.header-left {
+  float: left;
+  padding-left:50px;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: right;
+}
+
+.login-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  background-color: white;
+  padding: 20px 0 40px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(0, 0, 0, 0.46);
+  cursor: pointer;
+}
+
+#signup-form,
+#login-form {
+  width: 100%;
+}
+
+#signup-form h2,
+#login-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input,
+#login-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: black;
+  border: none;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+footer h2 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 400px;
+  height: 65px;
+  letter-spacing: 10px;
+}

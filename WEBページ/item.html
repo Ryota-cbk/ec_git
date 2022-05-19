@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>bijou mule｜スイ Suis Official Online Shop</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheet2.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="signup-modal-wrapper">
+    </div>
+    <div class="login-modal-wrapper" id="login-modal">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fa fa-x fa-times"></i>
+        </div>
+        <div id="login-form">
+          <p>log in</p>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="E-mail address">
+            <input class="form-control" type="password" placeholder="Password">
+            <div id="submit-btn">Log In</div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-left">
+        <a href="http://127.0.0.1:5500/top.html">
+          <h1 class="logo">Suis</h1>
+      </div>
+      <div class="header-right">
+        <div class="header-icon">
+          <a href="#"><span class="fa fa-search"></span></a>
+          <a href="#"><span class="fa fa-shopping-cart"></span></a>
+          <a href="#" class="login" id="login-show"><span class="fa fa-user"></span></a>
+          <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+          <a href="#">News</a>
+          <a href="http://127.0.0.1:5500/shop.html">Shop</a>
+          <a href="http://127.0.0.1:5500/about.html">About</a>
+          <a href="http://127.0.0.1:5500/top.html#second">Item</a>
+      </div>
+    </div>
+    </div>
+  </header>
+
+
+  <div class="top-wrapper">
+    <div class="container">
+      <div class="price">
+        <div class="shoes">
+          <div class="contents">
+            <h2>bijou mule</h2>
+            <h2>¥57,970</h2>
+
+            <br>
+            <p>detail</p>
+
+            <p>upper: cow leather</p>
+            <p>lining: cow leather</p>
+            <p>sole: leather sole</p>
+
+            <p>color: black, black/white, dark brown</p>
+
+            <p>size: 22.5-23.0cm, 23.5-24.0cm, 24.5-25.0cm, 25.5-26.0cm, 26.5-27.0cm, 27.5-28.0cm</p>
+          </div>
+          <div class="main-img" id="mainImg"><img
+              src="https://online.henderscheme.com/photo/photo/ol-s-bjm/zz-ol-s-bjm_black-1.jpg?1643528069">
+          </div>
+          <div class="sub-img" id="subImg">
+            <a class="current"><img
+                src="https://online.henderscheme.com/photo/photo/ol-s-bjm/zz-ol-s-bjm_black-1.jpg?1643528069"></a>
+
+            <a><img
+                src="https://online.henderscheme.com/photo/photo/ol-s-bjm/zz-ol-s-bjm_black-2.jpg?1643528066"></a>
+
+            <a><img
+                src="https://online.henderscheme.com/photo/photo/ol-s-bjm/zz-ol-s-bjm_black-3.jpg?1643528067"></a>
+
+            <a><img
+                src="https://online.henderscheme.com/photo/photo/ol-s-bjm/zz-ol-s-bjm_black-4.jpg?1643528076"></a>
+          </div>
+        </div>
+
+        <div class="color">
+          <p>color</p>
+          <input type="radio" name="color" value="1" id="black" checked><label for="black">black</label>
+          <input type="radio" name="color" value="1" id="black/white"><label for="black/white">black/white</label>
+          <input type="radio" name="color" value="1" id="black"><label for="dark blown">dark blown</label>
+        </div>
+
+        <div class="size">
+          <p>size</p>
+          <input type="radio" name="size" value="1" id="1" checked><label for="1">22.5-23.0cm</label>
+          <input type="radio" name="size" value="1" id="2"><label for="2">23.5-24.0cm</label>
+          <input type="radio" name="size" value="1" id="3"><label for="3">24.5-25.0cm</label>
+          <input type="radio" name="size" value="1" id="4"><label for="4">25.5-26.0cm</label>
+          <input type="radio" name="size" value="1" id="5"><label for="5">26.5-27.0cm</label>
+          <input type="radio" name="size" value="1" id="6"><label for="6">27.5-28.0cm</label>
+        </div>
+
+        <form method="post" oninput="result.value= 57970 * parseInt(num2.value);">
+          <div>
+            <p class="quantity">quantity</p>
+          </div>
+          <div>
+            <input type="number" name="num2" value="1" min="1" max="20" />
+            <div class="total-cash">
+              <span class="total-icon">total: </span><span>¥</span><output name="result">57970</output>
+            </div>
+          </div>
+        </form>
+
+        <div class="add">
+          <a href="http://127.0.0.1:5500/cart.html">add to cart</a>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-contents">
+        <a href="http://127.0.0.1:5500/top.html">
+          <h2>Suis</h2>
+        </a>
+      </div>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

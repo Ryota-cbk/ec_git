@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 100px 0 0px 0;
+    background-size: cover;
+    color: rgb(21, 18, 18);
+}
+
+
+
+.top-wrapper p {
+    opacity: 0.7;
+}
+
+.cart {
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+
+.cart img {
+    width: 80px;
+    height: 150px;
+}
+
+.cart-contents {
+    padding-left: 50px;
+}
+
+.price {
+    float: right;
+}
+
+.cart h2 {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.price span {
+    font-size: 20px;
+}
+
+.delete {
+    color: black;
+    font-size: 12px;
+    margin-left: 15px;
+    border-bottom: 1px solid black;
+}
+
+.total p {
+    float: right;
+}
+
+.total span {
+    font-size: 25px;
+}
+
+.form {
+    padding-top: 100px;
+}
+
+.text {
+    width: 400px;
+    margin-top: 0px;
+    margin-right: 20px;
+    padding: 8px 10px;
+    border: 1px solid #dee7ec;
+    margin-bottom: 10px;
+}
+
+.buy {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.buy a:hover,.buy input:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.order{
+    cursor: pointer;
+}
+
+.continue {
+    display: inline-block;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 60px;
+}
+
+.order {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 100px;
+    margin-left: 20px;
+}
+
+
+.fa {
+    margin-right: 5px;
+}
+
+.zettai{
+    color: rgb(255, 0, 0);
+    margin-left:15px;
+    opacity:0.8
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    /* positionプロパティをfixedに、topを0に指定してください */
+    position: fixed;
+    top: 0;
+    /* z-indexを10に指定してください */
+    z-index: 10;
+    background-color: white;
+}
+
+.logo {
+    width: 124px;
+    color: black;
+    opacity: 0.95;
+    vertical-align: middle;
+    letter-spacing: 8px;
+}
+
+.header-left {
+    float: left;
+    padding-left:50px;
+}
+
+.header-right {
+    float: right;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+    float: right;
+}
+
+.login-modal-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: white;
+    padding: 20px 0 40px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+}
+
+.fa-times {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: rgba(0, 0, 0, 0.46);
+    cursor: pointer;
+}
+
+#signup-form,
+#login-form {
+    width: 100%;
+}
+
+#signup-form h2,
+#login-form h2 {
+    color: #5f5d60;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+#signup-form input,
+#login-form input {
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #d0d5d8;
+}
+
+#submit-btn {
+    display: inline-block;
+    padding: 14px 140px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+footer h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    padding-top: 400px;
+    height: 65px;
+    letter-spacing: 10px;
+}
